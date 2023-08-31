@@ -3,6 +3,9 @@ import '../../styles/contact.css'
 import emailjs from '@emailjs/browser';
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsLinkedin, BsWhatsapp} from 'react-icons/bs'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -17,7 +20,8 @@ const Contact = () => {
 };
 
   return (
-    <section id='contact'>
+    <section id='contact'  data-aos="fade-up"
+    data-aos-duration="2000">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
       <div className='container contact-container'>

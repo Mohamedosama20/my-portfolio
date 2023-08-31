@@ -1,10 +1,14 @@
 import React from 'react'
 import '../../styles/portfolio.css'
 import PortfolioData from './PortfolioData.jsx'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section id='portfolio'  data-aos="fade-up"
+    data-aos-duration="2000">
     <h5>My Recent Work</h5>
     <h2>Portfolio</h2>
     <div className='container portfolio-container'>
