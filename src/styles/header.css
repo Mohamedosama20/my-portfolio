@@ -9,6 +9,10 @@ header {
     height: 100%;
     position: relative;
 }
+.header-container span {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
 .cta {
     margin-top: 2.5rem;
     display: flex;
