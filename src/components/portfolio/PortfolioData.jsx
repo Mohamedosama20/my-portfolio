@@ -11,7 +11,7 @@ const PortfolioData = [
     {
         id: 1,
         img: Img1,
-        title: "Food Delievery",
+        title: "Food Delivery",
         github: 'https://github.com/Mohamedosama20/food-delivery-project',
         live: 'https://food-delivery-project-three.vercel.app/home',
     },
