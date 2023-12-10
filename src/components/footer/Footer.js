@@ -18,7 +18,7 @@ const Footer = () => {
       <a href='https://www.facebook.com/Muhammmeedd/' target='blank'><FaFacebookF/></a>
       <a href='https://linkedin.com/in/mohamed-osama-4183b01b2' target='blank'><FaLinkedinIn/></a>
       <a href='https://github.com/Mohamedosama20' target='blank'><FaGithub/></a>
-      <a href='https://wa.me/+2001118788751' target='blank'><FaWhatsapp/></a>
+      <a href='https://wa.me/+201118788751' target='blank'><FaWhatsapp/></a>
     </div>
     <div className='footer-copyright'>
      <small> &copy; Copyright <span>Mohamed Osama</span></small> 
